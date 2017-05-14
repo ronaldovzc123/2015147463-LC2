@@ -1,0 +1,14 @@
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\obj\Debug\2015147463-PER.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\bin\Debug\2015147463-PER.dll.config
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\bin\Debug\2015147463-PER.dll
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\bin\Debug\2015147463-PER.pdb
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\bin\Debug\2015147463-ENT.dll
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\bin\Debug\EntityFramework.dll
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\bin\Debug\2015147463-ENT.pdb
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\bin\Debug\EntityFramework.xml
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\obj\Debug\2015147463-PER.dll
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\obj\Debug\2015147463-PER.pdb
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\obj\Debug\_2015147463_PER.Migrations.InitailModel.resources
+c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-PER\obj\Debug\2015147463-PER.csproj.GenerateResource.Cache
