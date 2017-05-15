@@ -17,9 +17,9 @@ namespace _2015147463_PER.ENT.Configuration
             Property(cl => cl.DescripcionServicio).IsRequired();
             Property(cl => cl.cantidad).IsRequired();
             Property(cl => cl.Tipo).IsRequired();
-          
-           
 
+          //  Map<Transporte>(m => m.Requires("Discriminator").HasValue("Transporte"));
+            //Map<Encomienda>(m => m.Requires("Discriminator").HasValue("Encomienda"));
         }
     }
 }

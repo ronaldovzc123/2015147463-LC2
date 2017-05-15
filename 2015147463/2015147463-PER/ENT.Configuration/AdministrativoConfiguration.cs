@@ -14,6 +14,8 @@ namespace _2015147463_PER.ENT.Configuration
         {
             ToTable("Administrativo");
             HasKey(cl => cl.AdministrativoID);
+
+
         }
     }
 }

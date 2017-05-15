@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace _2015147463_ENT
 {
     public class Tripulacion
-    {
+     {
+
         public int TripulacionID { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }

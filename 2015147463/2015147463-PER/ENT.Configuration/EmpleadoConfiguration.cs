@@ -14,9 +14,9 @@ namespace _2015147463_PER.ENT.Configuration
         {
             ToTable("Empleado");
             HasKey(cl => cl.EmpleadoID);
-
-            Property(cl => cl.DNI).IsRequired();
-            Property(cl => cl.LaborSocial).IsRequired();
+            
+           // Property(cl => cl.DNI).IsRequired();
+            //Property(cl => cl.LaborSocial).IsRequired();
 
            
         }

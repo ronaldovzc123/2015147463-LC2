@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace _2015147463_ENT
 {
     public class Venta
-    {
+   {
         public int VentaID { get; set; }
         public int ClienteID { get; set; }
         public int AdministrativoID { get; set; }
@@ -34,12 +34,15 @@ namespace _2015147463_ENT
             TipoPagos = new List<TipoPago>();
             Servicios = new List<Servicio>();
             Clientes = new List<Cliente>();
-            
         }
+
+
         public List<Administrativo> Administrativos { get; set; }
         public List<TipoComprobante> TipoComprobantes { get; set; }
         public List<TipoPago> TipoPagos { get; set; }
         public List<Servicio> Servicios { get; set; }
         public List<Cliente> Clientes { get; set; }
+
+
     }
-}
+    }

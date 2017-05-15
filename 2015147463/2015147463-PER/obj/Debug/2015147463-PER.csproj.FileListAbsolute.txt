@@ -26,7 +26,6 @@ C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-PER\obj\Debug\2015147463-PER.csproj.GenerateResource.Cache
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-PER\obj\Debug\2015147463-PER.dll
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-PER\obj\Debug\2015147463-PER.pdb
-C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-PER\obj\Debug\_2015147463_PER.Migrations.PriceAdded.resources
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-PER\obj\Debug\_2015147463_PER.Migrations.PriceAdded1.resources
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-PER\obj\Debug\_2015147463_PER.Migrations.PriceAdded2.resources
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-PER\obj\Debug\_2015147463_PER.Migrations.PriceAdded3.resources

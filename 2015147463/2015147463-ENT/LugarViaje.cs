@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace _2015147463_ENT
 {
     public class LugarViaje
-    {
+   {
         public int LugarViajeID { get; set; }
         public int TipoLugarID { get; set; }
         public TipoLugar TipoLugar { get; set; }
@@ -18,11 +18,16 @@ namespace _2015147463_ENT
         public int EncomiendaID { get; set; }
         public Encomienda Encomienda { get; set; }
 
+
         public LugarViaje()
         {
             TipoLugar = new TipoLugar();
             TipoLugares = new List<TipoLugar>();
+
         }
+
         public List<TipoLugar> TipoLugares { get; set; }
+
+
     }
 }

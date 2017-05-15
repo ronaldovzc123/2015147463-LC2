@@ -15,9 +15,9 @@ namespace _2015147463_PER.ENT.Configuration
             ToTable("Encomienda");
             HasKey(cl => cl.EncomiendaID);
 
-            HasMany(cl => cl.LugarViajess)
-               .WithRequired(r => r.Encomienda)
-               .HasForeignKey(r => r.EncomiendaID);
+           // HasMany(cl => cl.LugarViajess)
+             //  .WithRequired(r => r.Encomienda)
+               //.HasForeignKey(r => r.EncomiendaID);
 
         }
     }
