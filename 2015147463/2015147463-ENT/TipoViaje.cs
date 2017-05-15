@@ -9,5 +9,9 @@ namespace _2015147463_ENT
     public class TipoViaje
     {
         public int TipoViajeID { get; set; }
+        public string Descripcion { get; set; }
+        public string Beneficio { get; set; }
+        public int TransporteID { get; set; }
+        public Transporte Transporte { get; set; }
     }
 }

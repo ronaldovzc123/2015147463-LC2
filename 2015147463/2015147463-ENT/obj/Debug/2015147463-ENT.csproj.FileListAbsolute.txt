@@ -3,3 +3,8 @@ c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-ENT
 c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-ENT\bin\Debug\2015147463-ENT.pdb
 c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-ENT\obj\Debug\2015147463-ENT.dll
 c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-ENT\obj\Debug\2015147463-ENT.pdb
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-ENT\bin\Debug\2015147463-ENT.dll
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-ENT\bin\Debug\2015147463-ENT.pdb
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-ENT\obj\Debug\2015147463-ENT.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-ENT\obj\Debug\2015147463-ENT.dll
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-ENT\obj\Debug\2015147463-ENT.pdb

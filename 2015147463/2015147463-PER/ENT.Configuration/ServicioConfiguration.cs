@@ -14,6 +14,12 @@ namespace _2015147463_PER.ENT.Configuration
         {
             ToTable("Servicio");
             HasKey(cl => cl.ServicioID);
+            Property(cl => cl.DescripcionServicio).IsRequired();
+            Property(cl => cl.cantidad).IsRequired();
+            Property(cl => cl.Tipo).IsRequired();
+          
+           
+
         }
     }
 }

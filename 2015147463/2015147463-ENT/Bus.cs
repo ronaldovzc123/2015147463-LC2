@@ -8,6 +8,27 @@ namespace _2015147463_ENT
 {
     public class Bus
     {
+        public Tripulacion Tripulacion { get; set; }
+
+        public Bus()
+        {
+            Encomiendas = new List<Encomienda>();
+
+        }
+
+        public Bus(Tripulacion tripulacion)
+        {
+            Tripulacion = tripulacion;
+            Tripulaciones1 = new Tripulacion();
+        }
+
+        public string Placa { get; set; }
+        public int cantidad { get; set; }
+        public string color { get; set; }
         public int BusID { get; set; }
+        public Transporte Transporte1 { get; set; }
+        public List<Encomienda> Encomiendas { get; set; }
+        public Tripulacion Tripulaciones1 { get; set; }
+
     }
 }

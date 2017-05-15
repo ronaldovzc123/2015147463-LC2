@@ -14,6 +14,11 @@ namespace _2015147463_PER.ENT.Configuration
         {
             ToTable("LugarViaje");
             HasKey(cl => cl.LugarViajeID);
+
+            HasMany(cl => cl.TipoLugares)
+                  .WithRequired(r => r.LugarViaje)
+                  .HasForeignKey(r => r.LugarViajeID);
+
         }
     }
 }

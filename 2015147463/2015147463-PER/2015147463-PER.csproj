@@ -66,6 +66,70 @@
     <Compile Include="Migrations\201705140457429_InitailModel.Designer.cs">
       <DependentUpon>201705140457429_InitailModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705150227421_PriceAdded.cs" />
+    <Compile Include="Migrations\201705150227421_PriceAdded.Designer.cs">
+      <DependentUpon>201705150227421_PriceAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150229443_PriceAdded1.cs" />
+    <Compile Include="Migrations\201705150229443_PriceAdded1.Designer.cs">
+      <DependentUpon>201705150229443_PriceAdded1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150231437_PriceAdded2.cs" />
+    <Compile Include="Migrations\201705150231437_PriceAdded2.Designer.cs">
+      <DependentUpon>201705150231437_PriceAdded2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150233409_PriceAdded3.cs" />
+    <Compile Include="Migrations\201705150233409_PriceAdded3.Designer.cs">
+      <DependentUpon>201705150233409_PriceAdded3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150235409_PriceAdded4.cs" />
+    <Compile Include="Migrations\201705150235409_PriceAdded4.Designer.cs">
+      <DependentUpon>201705150235409_PriceAdded4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150237424_InitailModel1.cs" />
+    <Compile Include="Migrations\201705150237424_InitailModel1.Designer.cs">
+      <DependentUpon>201705150237424_InitailModel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150238555_PriceAdded5.cs" />
+    <Compile Include="Migrations\201705150238555_PriceAdded5.Designer.cs">
+      <DependentUpon>201705150238555_PriceAdded5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150246066_PriceAdded6.cs" />
+    <Compile Include="Migrations\201705150246066_PriceAdded6.Designer.cs">
+      <DependentUpon>201705150246066_PriceAdded6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150249094_PriceAdded7.cs" />
+    <Compile Include="Migrations\201705150249094_PriceAdded7.Designer.cs">
+      <DependentUpon>201705150249094_PriceAdded7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150251288_PriceAdded8.cs" />
+    <Compile Include="Migrations\201705150251288_PriceAdded8.Designer.cs">
+      <DependentUpon>201705150251288_PriceAdded8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150253290_PriceAdded9.cs" />
+    <Compile Include="Migrations\201705150253290_PriceAdded9.Designer.cs">
+      <DependentUpon>201705150253290_PriceAdded9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150255439_PriceAdded10.cs" />
+    <Compile Include="Migrations\201705150255439_PriceAdded10.Designer.cs">
+      <DependentUpon>201705150255439_PriceAdded10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150256314_PriceAdded11.cs" />
+    <Compile Include="Migrations\201705150256314_PriceAdded11.Designer.cs">
+      <DependentUpon>201705150256314_PriceAdded11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150257151_PriceAdded12.cs" />
+    <Compile Include="Migrations\201705150257151_PriceAdded12.Designer.cs">
+      <DependentUpon>201705150257151_PriceAdded12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150301059_PriceAdded13.cs" />
+    <Compile Include="Migrations\201705150301059_PriceAdded13.Designer.cs">
+      <DependentUpon>201705150301059_PriceAdded13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705150552034_PriceAdded14.cs" />
+    <Compile Include="Migrations\201705150552034_PriceAdded14.Designer.cs">
+      <DependentUpon>201705150552034_PriceAdded14.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -82,6 +146,54 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705140457429_InitailModel.resx">
       <DependentUpon>201705140457429_InitailModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150227421_PriceAdded.resx">
+      <DependentUpon>201705150227421_PriceAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150229443_PriceAdded1.resx">
+      <DependentUpon>201705150229443_PriceAdded1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150231437_PriceAdded2.resx">
+      <DependentUpon>201705150231437_PriceAdded2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150233409_PriceAdded3.resx">
+      <DependentUpon>201705150233409_PriceAdded3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150235409_PriceAdded4.resx">
+      <DependentUpon>201705150235409_PriceAdded4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150237424_InitailModel1.resx">
+      <DependentUpon>201705150237424_InitailModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150238555_PriceAdded5.resx">
+      <DependentUpon>201705150238555_PriceAdded5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150246066_PriceAdded6.resx">
+      <DependentUpon>201705150246066_PriceAdded6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150249094_PriceAdded7.resx">
+      <DependentUpon>201705150249094_PriceAdded7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150251288_PriceAdded8.resx">
+      <DependentUpon>201705150251288_PriceAdded8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150253290_PriceAdded9.resx">
+      <DependentUpon>201705150253290_PriceAdded9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150255439_PriceAdded10.resx">
+      <DependentUpon>201705150255439_PriceAdded10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150256314_PriceAdded11.resx">
+      <DependentUpon>201705150256314_PriceAdded11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150257151_PriceAdded12.resx">
+      <DependentUpon>201705150257151_PriceAdded12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150301059_PriceAdded13.resx">
+      <DependentUpon>201705150301059_PriceAdded13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705150552034_PriceAdded14.resx">
+      <DependentUpon>201705150552034_PriceAdded14.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

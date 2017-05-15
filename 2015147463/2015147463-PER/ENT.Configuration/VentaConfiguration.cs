@@ -14,6 +14,29 @@ namespace _2015147463_PER.ENT.Configuration
         {
             ToTable("Venta");
             HasKey(cl => cl.VentaID);
+
+            HasMany(cl => cl.Administrativos)
+            .WithRequired(r => r.Venta)
+            .HasForeignKey(r => r.VentaID);
+
+
+            HasMany(cl => cl.TipoComprobantes)
+              .WithRequired(r => r.Venta)
+              .HasForeignKey(r => r.VentaID);
+
+            HasMany(cl => cl.TipoPagos)
+              .WithRequired(r => r.Venta)
+              .HasForeignKey(r => r.VentaID);
+
+            HasMany(cl => cl.Servicios)
+              .WithRequired(r => r.Venta)
+              .HasForeignKey(r => r.VentaID);
+
+            HasMany(cl => cl.Clientes)
+              .WithRequired(r => r.Venta)
+              .HasForeignKey(r => r.VentaID);
+
+
         }
     }
 }

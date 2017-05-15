@@ -8,6 +8,14 @@ namespace _2015147463_ENT
 {
     public class Cliente
     {
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
         public int ClienteID { get; set; }
+        public string DNI { get; set; }
+        public int VentaID { get; set; }
+        public Venta Venta { get; set; }
+        public int TransporteID { get; set; }
+        public Transporte Transporte { get; set; }
+
     }
 }

@@ -8,6 +8,11 @@ namespace _2015147463_ENT
 {
     public class Servicio
     {
+        public string Tipo { get; set; }
         public int ServicioID { get; set; }
+        public string DescripcionServicio { get; set; }
+        public int cantidad { get; set; }
+        public int VentaID { get; set; }
+        public Venta Venta { get; set; }
     }
 }

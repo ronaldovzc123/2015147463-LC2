@@ -14,6 +14,10 @@ namespace _2015147463_PER.ENT.Configuration
         {
             ToTable("Bus");
             HasKey(cl => cl.BusID);
+
+            HasMany(cl => cl.Encomiendas)
+                  .WithRequired(r => r.Bust)
+                  .HasForeignKey(r => r.BusID);
         }
     }
 }

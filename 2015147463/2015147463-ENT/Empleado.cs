@@ -9,5 +9,7 @@ namespace _2015147463_ENT
     public class Empleado
     {
         public int EmpleadoID { get; set; }
+        public string DNI { get; set; }
+        public string LaborSocial { get; set; }
     }
 }

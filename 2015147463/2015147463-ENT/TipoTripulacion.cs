@@ -9,5 +9,8 @@ namespace _2015147463_ENT
     public class TipoTripulacion
     {
         public int TipoTripulacionID { get; set; }
+        public string Descripción { get; set; }
+        public int TripulacionID { get; set; }
+        public Tripulacion Tripulacion { get; set; }
     }
 }

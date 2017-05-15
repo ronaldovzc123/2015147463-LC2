@@ -14,6 +14,11 @@ namespace _2015147463_PER.ENT.Configuration
         {
             ToTable("Tripulacion");
             HasKey(cl => cl.TripulacionID);
+
+            HasMany(cl => cl.TipoTripulaciones)
+            .WithRequired(r => r.Tripulacion)
+            .HasForeignKey(r => r.TripulacionID);
+
         }
     }
 }

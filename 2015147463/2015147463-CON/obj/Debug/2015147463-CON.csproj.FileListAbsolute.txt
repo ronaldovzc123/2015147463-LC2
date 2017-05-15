@@ -13,3 +13,12 @@ c:\users\usuario\documents\visual studio 2013\Projects\2015147463\2015147463-CON
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\bin\Debug\2015147463-CON.exe.config
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\obj\Debug\2015147463-CON.exe
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\obj\Debug\2015147463-CON.pdb
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\bin\Debug\2015147463-CON.exe
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\bin\Debug\2015147463-CON.pdb
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\bin\Debug\2015147463-ENT.dll
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\bin\Debug\2015147463-PER.dll
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\bin\Debug\2015147463-ENT.pdb
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\bin\Debug\2015147463-PER.pdb
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\2015147463-LC2\2015147463\2015147463-CON\obj\Debug\2015147463-CON.csprojResolveAssemblyReference.cache
