@@ -30,7 +30,7 @@ namespace _2015147463_PER.Repositories
       ITripulacionRepository Tripulacion { get;  set; }
       IVentaRepository Iventa { get;  set; }
 
-        private  UnityOfWork()
+        public  UnityOfWork()
         {
             Context = new Class();
 
@@ -65,6 +65,11 @@ namespace _2015147463_PER.Repositories
  
             }
         }
+
+        //IBusRepository IUnityOfWork.IAdministrativo
+        //{
+        //    get { throw new NotImplementedException(); }
+        //}
 
       
 

@@ -8,7 +8,7 @@ namespace _2015147463_ENT.IRepositories
 {
    public interface IUnityOfWork : IDisposable
     {
-       IAdministrativoRepository Administrativo { get; }
+       IAdministrativoRepository IAdministrativo { get; }
        IBusRepository IBus { get; }
        IClienteRepository ICliente { get; }
        IEmpleadoRepository IEmpleado { get; }
