@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _2015147463_PER.Repositories
 {
-    class LugarViajeRepository : Repository<LugarViaje>, ILugarViajeRepository
+  public   class LugarViajeRepository : Repository<LugarViaje>, ILugarViajeRepository
     {
        private readonly Class Context; 
 

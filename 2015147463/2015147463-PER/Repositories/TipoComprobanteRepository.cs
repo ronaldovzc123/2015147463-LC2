@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _2015147463_PER.Repositories
 {
-    class TipoComprobanteRepository : Repository<TipoComprobante>, ITipoComprobanteRepository
+   public  class TipoComprobanteRepository : Repository<TipoComprobante>, ITipoComprobanteRepository
     {
          private readonly Class Context; 
 

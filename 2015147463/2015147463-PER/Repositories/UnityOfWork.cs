@@ -14,21 +14,21 @@ namespace _2015147463_PER.Repositories
       private static UnityOfWork _Instance;
       private static readonly object Lock = new object();
 
-      IAdministrativoRepository Administrativo { get; private set; }
-      IBusRepository Bus { get; private set; }
-      IClienteRepository Cliente { get; private set; }
-      IEmpleadoRepository Empleado { get; private set; }
-      ILugarViajeRepository lugarviaje { get; private set; }
-      IEncomiendaRepository Encomienda { get; private set; }
-      IServiceProvider Servicio { get; private set; }
-      ITipoComprobanteRepository TipoComprobante { get; private set; }
-      ITipoLugarRepository TipoLugar { get; private set; }
-      ITipoPagoRepository TitpoPago { get; private set; }
-      ITipoTripulacionRepository TipoTripulacion { get; private set; }
-        ITipoViajeRepository TipoViaje { get; private set; }
-        ITransporteRepository Transporte { get; private set; }
-        ITripulacionRepository Tripulacion { get; private set; }
-        IVentaRepository Iventa { get; private set; }
+      IAdministrativoRepository Administrativo { get; set; }
+      IBusRepository Bus { get;  set; }
+      IClienteRepository Cliente { get;  set; }
+      IEmpleadoRepository Empleado { get;  set; }
+      ILugarViajeRepository lugarviaje { get;  set; }
+      IEncomiendaRepository Encomienda { get;  set; }
+      IServiceProvider Servicio { get;  set; }
+      ITipoComprobanteRepository TipoComprobante { get;  set; }
+      ITipoLugarRepository TipoLugar { get;  set; }
+      ITipoPagoRepository TitpoPago { get;  set; }
+      ITipoTripulacionRepository TipoTripulacion { get;  set; }
+      ITipoViajeRepository TipoViaje { get;  set; }
+      ITransporteRepository Transporte { get;  set; }
+      ITripulacionRepository Tripulacion { get;  set; }
+      IVentaRepository Iventa { get;  set; }
 
         private  UnityOfWork()
         {

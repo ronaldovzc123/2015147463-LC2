@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _2015147463_PER.Repositories
 {
-    class EmpleadoRepository : Repository<Empleado>, IEmpleadoRepository
+    public class EmpleadoRepository : Repository<Empleado>, IEmpleadoRepository
     {
         private readonly Class Context; 
 

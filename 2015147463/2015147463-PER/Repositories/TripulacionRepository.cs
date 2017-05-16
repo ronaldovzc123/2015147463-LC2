@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _2015147463_PER.Repositories
 {
-    class TripulacionRepository : Repository<Tripulacion>, ITripulacionRepository
+    public class TripulacionRepository : Repository<Tripulacion>, ITripulacionRepository
     {
         private readonly Class Context;
 

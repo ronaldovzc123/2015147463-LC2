@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _2015147463_PER.Repositories
 {
-    class BusRepository : Repository<Bus>, IBusRepository
+   public  class BusRepository : Repository<Bus>, IBusRepository
     {
          private readonly Class Context; 
 

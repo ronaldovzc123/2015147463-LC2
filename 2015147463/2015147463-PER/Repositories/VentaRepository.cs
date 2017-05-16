@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _2015147463_PER.Repositories
 {
-    class VentaRepository : Repository<Venta>, IVentaRepository
+    public  class VentaRepository : Repository<Venta>, IVentaRepository
     {
         IEnumerable<Venta> IVentaRepository.GetAdministrativoWhitAdministrativo(int pageIndex, int pageSize)
         {
