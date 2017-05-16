@@ -10,6 +10,18 @@ namespace _2015147463_PER.Repositories
 {
     class LugarViajeRepository : Repository<LugarViaje>, ILugarViajeRepository
     {
+       private readonly Class Context; 
+
+        public LugarViajeRepository()
+        {
+
+        }
+        public LugarViajeRepository(Class context)
+        {
+            Context = context;
+        }
+
+
         IEnumerable<Administrativo> ILugarViajeRepository.GetAdministrativoWhiTransporte(int pageIndex, int pageSize)
         {
             throw new NotImplementedException();

@@ -10,5 +10,15 @@ namespace _2015147463_PER.Repositories
 {
     class TipoLugarRepository : Repository<TipoLugar>, ITipoLugarRepository
     {
+        private readonly Class Context;
+
+        public TipoLugarRepository()
+        {
+
+        }
+        public TipoLugarRepository(Class context)
+        {
+            Context = context;
+        }
     }
 }

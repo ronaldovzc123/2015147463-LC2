@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2015147463_ENT.IRepositories
 {
-   public  interface IUnityOfWork : IDisposable
+   public interface IUnityOfWork : IDisposable
     {
        IAdministrativoRepository Administrativo { get; }
        IBusRepository IBus { get; }

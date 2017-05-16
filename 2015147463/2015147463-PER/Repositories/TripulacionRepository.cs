@@ -10,5 +10,15 @@ namespace _2015147463_PER.Repositories
 {
     class TripulacionRepository : Repository<Tripulacion>, ITripulacionRepository
     {
+        private readonly Class Context;
+
+        public TripulacionRepository()
+        {
+
+        }
+        public TripulacionRepository(Class context)
+        {
+            Context = context;
+        }
     }
 }

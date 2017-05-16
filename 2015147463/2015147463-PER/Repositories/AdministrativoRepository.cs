@@ -8,8 +8,20 @@ using System.Threading.Tasks;
 
 namespace _2015147463_PER.Repositories
 {
-    class AdministrativoRepository : Repository<Administrativo>, IAdministrativoRepository
+    public class AdministrativoRepository : Repository<Administrativo>, IAdministrativoRepository
     {
+        private readonly Class Context; 
+
+        public AdministrativoRepository()
+        {
+
+        }
+        public AdministrativoRepository(Class context)
+        {
+            Context = context;
+        }
+
+
         IEnumerable<Administrativo> IAdministrativoRepository.GetAdministrativoWhitVenta(int pageIndex, int pageSize)
         {
             throw new NotImplementedException();

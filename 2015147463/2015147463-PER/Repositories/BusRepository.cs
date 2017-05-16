@@ -10,6 +10,16 @@ namespace _2015147463_PER.Repositories
 {
     class BusRepository : Repository<Bus>, IBusRepository
     {
+         private readonly Class Context; 
+
+        public BusRepository()
+        {
+
+        }
+        public BusRepository(Class context)
+        {
+            Context = context;
+        }
 
 
         IEnumerable<Bus> IBusRepository.GetAdministrativoWhitEncomienda(int pageIndex, int pageSize)

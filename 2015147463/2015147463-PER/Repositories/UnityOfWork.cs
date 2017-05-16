@@ -1,4 +1,5 @@
-﻿using _2015147463_ENT.IRepositories;
+﻿using _2015147463_ENT;
+using _2015147463_ENT.IRepositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +8,65 @@ using System.Threading.Tasks;
 
 namespace _2015147463_PER.Repositories
 {
-  public   class UnityOfWork : IUnityOfWork
+  public class UnityOfWork : IUnityOfWork
     {
+      private readonly Class Context;
+      private static UnityOfWork _Instance;
+      private static readonly object Lock = new object();
 
-        IAdministrativoRepository IUnityOfWork.Administrativo
+      IAdministrativoRepository Administrativo { get; private set; }
+      IBusRepository Bus { get; private set; }
+      IClienteRepository Cliente { get; private set; }
+      IEmpleadoRepository Empleado { get; private set; }
+      ILugarViajeRepository lugarviaje { get; private set; }
+      IEncomiendaRepository Encomienda { get; private set; }
+      IServiceProvider Servicio { get; private set; }
+      ITipoComprobanteRepository TipoComprobante { get; private set; }
+      ITipoLugarRepository TipoLugar { get; private set; }
+      ITipoPagoRepository TitpoPago { get; private set; }
+      ITipoTripulacionRepository TipoTripulacion { get; private set; }
+        ITipoViajeRepository TipoViaje { get; private set; }
+        ITransporteRepository Transporte { get; private set; }
+        ITripulacionRepository Tripulacion { get; private set; }
+        IVentaRepository Iventa { get; private set; }
+
+        private  UnityOfWork()
         {
-            get { throw new NotImplementedException(); }
+            Context = new Class();
+
+            Administrativo = new AdministrativoRepository(Context);
+            Cliente = new ClienteRepository(Context);
+            Empleado = new EmpleadoRepository(Context);
+            lugarviaje = new LugarViajeRepository(Context);
+            Encomienda = new EncomiendaRepository(Context);
+          //  Servicio = new ServicioRepository(Context);
+            TipoComprobante = new TipoComprobanteRepository(Context);
+            TipoLugar = new TipoLugarRepository(Context);
+            TitpoPago = new TipoPagoRepository(Context);
+            TipoTripulacion = new TipoTripulacionRepository(Context);
+            TipoViaje = new TipoViajeRepository(Context);
+            Transporte = new TransporteRepository(Context);
+            Tripulacion = new TripulacionRepository(Context);
+            //Iventa = new IVentaRepository(Context);
+            Bus = new BusRepository(Context);
+
         }
+        public static UnityOfWork Instance
+        {
+            get
+            { 
+                lock(Lock)
+                {
+                    if (_Instance == null)
+                        _Instance = new UnityOfWork();
+                }
+
+                return _Instance;
+ 
+            }
+        }
+
+      
 
         IBusRepository IUnityOfWork.IBus
         {
@@ -85,14 +138,14 @@ namespace _2015147463_PER.Repositories
             get { throw new NotImplementedException(); }
         }
 
-        int IUnityOfWork.SaveChange()
+      public  int SaveChange()
         {
-            throw new NotImplementedException();
+           return Context.SaveChanges();
         }
 
-        void IDisposable.Dispose()
+        public void Dispose()
         {
-            throw new NotImplementedException();
+            Context.Dispose();
         }
     }
 }

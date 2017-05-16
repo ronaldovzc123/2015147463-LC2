@@ -10,5 +10,15 @@ namespace _2015147463_PER.Repositories
 {
     class TipoComprobanteRepository : Repository<TipoComprobante>, ITipoComprobanteRepository
     {
+         private readonly Class Context; 
+
+        public TipoComprobanteRepository()
+        {
+
+        }
+        public TipoComprobanteRepository(Class context)
+        {
+            Context = context;
+        }
     }
 }

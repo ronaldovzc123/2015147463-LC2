@@ -10,5 +10,15 @@ namespace _2015147463_PER.Repositories
 {
     class EmpleadoRepository : Repository<Empleado>, IEmpleadoRepository
     {
+        private readonly Class Context; 
+
+        public EmpleadoRepository()
+        {
+
+        }
+        public EmpleadoRepository(Class context)
+        {
+            Context = context;
+        }
     }
 }

@@ -10,6 +10,16 @@ namespace _2015147463_PER.Repositories
 {
     class EncomiendaRepository : Repository<Encomienda>, IEncomiendaRepository
     {
+        private readonly Class Context; 
+
+        public EncomiendaRepository()
+        {
+
+        }
+        public EncomiendaRepository(Class context)
+        {
+            Context = context;
+        }
         IEnumerable<Encomienda> IEncomiendaRepository.GetAdministrativoWhitLugarViaje(int pageIndex, int pageSize)
         {
             throw new NotImplementedException();

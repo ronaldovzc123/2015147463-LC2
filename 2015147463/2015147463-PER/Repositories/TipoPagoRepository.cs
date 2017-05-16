@@ -9,6 +9,17 @@ using System.Threading.Tasks;
 namespace _2015147463_PER.Repositories
 {
     class TipoPagoRepository : Repository<TipoPago>, ITipoPagoRepository
-    {
+    { 
+        
+        private readonly Class Context;
+
+        public TipoPagoRepository()
+        {
+
+        }
+        public TipoPagoRepository(Class context)
+        {
+            Context = context;
+        }
     }
 }

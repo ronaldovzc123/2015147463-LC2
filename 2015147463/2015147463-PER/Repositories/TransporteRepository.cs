@@ -10,6 +10,17 @@ namespace _2015147463_PER.Repositories
 {
     class TransporteRepository : Repository<Transporte>, ITransporteRepository
     {
+         private readonly Class Context;
+
+        public TransporteRepository()
+        {
+
+        }
+        public TransporteRepository(Class context)
+        {
+            Context = context;
+        }
+
         IEnumerable<Transporte> ITransporteRepository.GetAdministrativoWhitBus(int pageIndex, int pageSize)
         {
             throw new NotImplementedException();
