@@ -1,0 +1,15 @@
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\bin\Debug\2014118110-PER.dll.config
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\bin\Debug\2014118110-PER.dll
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\bin\Debug\2014118110-PER.pdb
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\bin\Debug\2014118110-ENT.dll
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\bin\Debug\EntityFramework.dll
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\bin\Debug\2014118110-ENT.pdb
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\bin\Debug\EntityFramework.xml
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\obj\Debug\2015147463-PER.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\obj\Debug\_2015147463_PER.Migrations.InitialModel.resources
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\obj\Debug\_2015147463_PER.Migrations.UpdateChanges.resources
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\obj\Debug\2015147463-PER.csproj.GenerateResource.Cache
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\obj\Debug\2014118110-PER.dll
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-PER\obj\Debug\2014118110-PER.pdb

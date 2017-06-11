@@ -1,0 +1,5 @@
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-ENT\bin\Debug\2014118110-ENT.dll
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-ENT\bin\Debug\2014118110-ENT.pdb
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-ENT\obj\Debug\2015147463-ENT.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-ENT\obj\Debug\2014118110-ENT.dll
+C:\Users\Bruno\Desktop\222\2015147463-SLN\2015147463-ENT\obj\Debug\2014118110-ENT.pdb
